@@ -99,7 +99,7 @@ The application runs entirely locally.
 1.Clone the Repository
 ```bash
 git clone https://github.com/KrutiSurati/AutoJudge.git
-cd Autojudge
+cd AutoJudge
 ```
 2.Install dependencies
 ```bash
@@ -142,3 +142,4 @@ Project: AutoJudge – Problem Difficulty Prediction**
 **Conclusion**-
 
 This project successfully implements an end-to-end machine learning system for predicting programming problem difficulty using only textual inputs. The solution meets all project requirements, including model training, evaluation, saved models, and a functional web interface.
+
