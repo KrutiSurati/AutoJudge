@@ -10,27 +10,23 @@ This project demonstrates the complete ML pipeline, including preprocessing, fea
 
 
 ## **Dataset Used**-
-The same dataset as given in the problem statement is used. Out of all the columnss -'title', 'description', 'input_description', 'output_description',
-'sample_io', 'problem_class', 'problem_score', 'url' 
- these are the selected ones -
-        "title",
-        "description",
-        "input_description",
-        "output_description",
-        "problem_class",
-        "problem_score" 
-
+The dataset consists of programming problems collected from online competitive programming platforms. Each data sample contains the following fields:
+•	“title”                       Problem name
+•	“description”                 Detailed textual description of the problem
+•	“input_description”           Textual Description of the input
+•	“output_description”          Textual Description of the output
+•	“sample_io”                   Sample for how input/output will be entered
+•	“problem_class”               Problem classification into easy/medium/hard
+•	“problem_score”               Score allotted based on difficulty
+•	“url”                         Link to the problem
 Only textual fields were used as inputs to satisfy project constraints.
 
 
 ## **Approach and Models Used**-
 
 **1.Data Preprocessing**
-Selected textual fields:
-Problem description
-Input description
-Output description
 
+Dropped unnecessary columns like sample_io andd url
 Combined all text fields into a single feature (combined_text)
 Checked and handled missing values
 Cleaned text implicitly via TF-IDF preprocessing.
@@ -163,6 +159,7 @@ Project: AutoJudge – Problem Difficulty Prediction**
 ## **Conclusion**-
 
 This project successfully implements an end-to-end machine learning system for predicting programming problem difficulty using only textual inputs. The solution meets all project requirements, including model training, evaluation, saved models, and a functional web interface.
+
 
 
 
