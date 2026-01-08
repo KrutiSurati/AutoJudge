@@ -147,9 +147,9 @@ These are loaded directly by the web interface for inference.
 Demo Video Link:
 https://drive.google.com/file/d/1ZlPIJHIljJNgPHYpsgcbMOAj2VGuCTr1/view?usp=drivesdk
 The video demonstrates:
-Project overview
-Model pipeline
-Running the web UI locally
+Project overview, 
+Model pipeline, 
+Running the web UI locally & 
 Sample predictions
 
 
@@ -164,6 +164,7 @@ Project: AutoJudge – Problem Difficulty Prediction
 ## **Conclusion**-
 
 This project successfully implements an end-to-end machine learning system for predicting programming problem difficulty using only textual inputs. The solution meets all project requirements, including model training, evaluation, saved models, and a functional web interface.
+
 
 
 
