@@ -101,15 +101,16 @@ A Streamlit-based web UI is provided.
 **Features**:
 Four input text boxes:
 
-Problem Title
-Problem Description
-Input Description
-Output Description
+Problem Title, 
+Problem Description, 
+Input Description, 
+Output Description & 
 A Predict button
 
 **Displays**:
-Predicted difficulty class
-Predicted difficulty score
+
+Predicted difficulty class &
+Predicted difficulty score. 
 No authentication or database is required.
 The application runs entirely locally.
 
@@ -153,16 +154,17 @@ Sample predictions
 
 
 ## **Details**-
-**Name: Kruti Surati (23119046)
+Name: Kruti Surati (23119046)
 
 Institute: Production and Industrial Engineering, B-Tech IIT Roorkee
 
-Project: AutoJudge – Problem Difficulty Prediction**
+Project: AutoJudge – Problem Difficulty Prediction
 
 
 ## **Conclusion**-
 
 This project successfully implements an end-to-end machine learning system for predicting programming problem difficulty using only textual inputs. The solution meets all project requirements, including model training, evaluation, saved models, and a functional web interface.
+
 
 
 
