@@ -10,6 +10,7 @@ This project demonstrates the complete ML pipeline, including preprocessing, fea
 
 
 ## **Dataset Used**-
+```text
 The dataset consists of programming problems collected from online competitive programming platforms. Each data sample contains the following fields:
 •	“title”                       Problem name
 •	“description”                 Detailed textual description of the problem
@@ -20,44 +21,47 @@ The dataset consists of programming problems collected from online competitive p
 •	“problem_score”               Score allotted based on difficulty
 •	“url”                         Link to the problem
 Only textual fields were used as inputs to satisfy project constraints.
-
+```
 
 ## **Approach and Models Used**-
 
 **1.Data Preprocessing**
-
+```
 Dropped unnecessary columns like sample_io andd url
 Combined all text fields into a single feature (combined_text)
 Checked and handled missing values
 Cleaned text implicitly via TF-IDF preprocessing.
+```
 
 **2.Feature Extraction**
+```
 Used TF-IDF Vectorization
 Parameters:
 max_features = 5000
 stop_words = "english"
 
 This converted raw text into numerical feature vectors suitable for machine learning models.
-
+```
 **Model 1: Classification**
-
+```
 Objective: Predict difficulty class (Easy / Medium / Hard)
 Model Used: Logistic Regression
 Input: TF-IDF features
 Output: Difficulty class
-
+```
 **Model 2: Regression**
-
+```
 Objective: Predict numerical difficulty score
 Model Used: Linear Regression
 Input: TF-IDF features
 Output: Difficulty score
 
-
+```
 ## **Evaluation Metrics**
 Classification Performance
+```
 Accuracy: 50.5%
-
+```
 **Metrics Used**:
 
 Confusion Matrix-
@@ -159,6 +163,7 @@ Project: AutoJudge – Problem Difficulty Prediction**
 ## **Conclusion**-
 
 This project successfully implements an end-to-end machine learning system for predicting programming problem difficulty using only textual inputs. The solution meets all project requirements, including model training, evaluation, saved models, and a functional web interface.
+
 
 
 
