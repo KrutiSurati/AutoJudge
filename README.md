@@ -1,5 +1,5 @@
 ## **AutoJudge: Predicting Programming Problem Difficulty**
-#Project Overview-
+# Project Overview-
 
 AutoJudge is a machine learning–based system designed to predict the difficulty of programming problems using only textual information.
 Given a problem’s description, input description, and output description, the system:
@@ -9,7 +9,7 @@ Provides results through a simple web-based user interface
 This project demonstrates the complete ML pipeline, including preprocessing, feature extraction, classification, regression, evaluation, and deployment via a web UI.
 
 
-#Dataset Used-
+# Dataset Used-
 The same dataset as given in the problem statement is used. Out of all the columnss -'title', 'description', 'input_description', 'output_description',
 'sample_io', 'problem_class', 'problem_score', 'url' 
  these are the selected ones -
@@ -143,6 +143,7 @@ Project: AutoJudge – Problem Difficulty Prediction**
 **Conclusion**-
 
 This project successfully implements an end-to-end machine learning system for predicting programming problem difficulty using only textual inputs. The solution meets all project requirements, including model training, evaluation, saved models, and a functional web interface.
+
 
 
 
